@@ -1,0 +1,218 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">Featured Portfolio</h2> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#portfolio"> 
+							Projects 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#services"> 
+							projects 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero"> 
+		<div class="intro"> 
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 class="my-heading">Gadi Kavyasri</h1> 
+				<h4 class="sub-heading"> 
+					A Passionate and collaborative developer with a strong foundation in data structures.
+				</h4> 
+			</div> 
+			<div class="intro-buttons">
+				<a
+					href="https://drive.google.com/file/d/1Lgl8oJqasKb0HA-wezzT6rQvWVqCWXzA/view?usp=drive_link"
+					download="Resume.pdf"
+					class="btn ghost-btn"
+				>
+					Get Resume
+				</a>
+			</div>
+		</div> 
+	</section> 
+
+
+	<!-- About Section -->
+	<section class="about" id="about">
+    	<div class="about-text">
+        	<h1 class="my-heading">About Me</h1>
+        	<p> I'm currently pursuing B.Tech final year in Lendi Institute of Engineering and Technology. I work effectively within teams to achieve project goals and expectations.
+				I'm Passionate about continuous learning, eagerly seeking out new courses and technologies to expand skillset and stay ahead of industry 
+				trends.</p>
+    	</div>
+	</section>
+
+	<!-- Skills Section -->
+	<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Skills</h1> 
+		</div> 
+		<h1> Technical Skills : C , Java , SQL , DSA through Java</h1>
+		<h1> Web Development Technologies : HTML , CSS , JavaScript</h1>
+	</section> 
+
+	<!-- Services Section -->
+	<section class="services" id="services">
+		<div class="services-heading">
+			<h1 class="my-heading text-center">My Projects</h1>
+		</div>
+		<div class="services-content">
+			<!-- Row 1 -->
+			<div class="my-row">
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fas fa-image"></i>
+						</div>
+						<h3 class="greet-heading blue-text">Deep Fake Detection</h3>
+						<p class="small-para">
+						This project aims to detect whether an image is real or fake. It utilizes Convolutional Neural Networks (CNN) and Flask integration. Developed using Spyder and Anaconda.
+						</p>
+						<ul class="small-para">
+							<li>Technologies: Python, Flask, CNN</li>
+							<li>Tools: Spyder, Anaconda</li>
+							<li>Description: Detects fake images using machine learning algorithms.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fas fa-female"></i>
+						</div>
+						<h3 class="greet-heading blue-text">Personal Portfolio</h3>
+						<p class="small-para">
+						This project showcases my skills, achievements, and experiences.
+						</p>
+						<ul class="small-para">
+							<li>Technologies: HTML, CSS, JavaScript</li>
+							<li>Tools: VSCode</li>
+						</ul>
+					</div>
+				</div>
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fas fa-bank"></i>
+						</div>
+						<h3 class="greet-heading blue-text">ATM Simulator System</h3>
+						<p class="small-para">
+							This Java project uses Swing and AWS concepts to simulate an ATM system. It features sign-in and sign-up pages, deposit, withdrawal, PIN change, and other standard ATM operations. Developed using NetBeans and MySQL database.
+						</p>
+						<ul class="small-para">
+							<li>Technologies: Java, Swing, AWS</li>
+							<li>Tools: NetBeans, MySQL</li>
+							<li>Description: Simulates ATM functionalities with a secure login system.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+			<div class="contact-details"> 
+				<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-heading">EMAIL</h5> 
+					<p class="contact-text">gadikavyasri176@gmail.com</p> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	
+
+
+
+
+	<!-- Footer section -->
+	<footer class="footer">
+		<div class="footer-content text-center">
+			<div class="social-links">
+				<div class="footer-menu">
+					<ul class="footer-menu-list">
+						<li class="footer-list-items">
+							<a href="https://github.com/GADIKAVYASRI" target="_blank" rel="noopener noreferrer">
+								<i class="fab fa-github"></i>
+							</a>
+						</li>
+						<li class="footer-list-items">
+							<a href="https://www.linkedin.com/in/kavyasri-gadi-5a841927a/" target="_blank" rel="noopener noreferrer">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<footer>
+		<b><p class="copy">&copy; 2024 Your Name. All rights reserved.</p></b>
+	</footer>
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
